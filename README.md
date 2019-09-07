@@ -8,25 +8,15 @@
 数据读取完毕即求的最大和。
 
 n=int(input())#矩阵大小为n*n
-
 matrix1=[[0]*n for _ in range(n)]#构造行与行之间的求和矩阵matrix1，大小为n*n，初始化为0
-
 res=-127
-
 for i in range(n):
-
     line=list(map(int,input().split()))#读取矩阵第i行
-    
     temp=[]
-    
     for j in range(i+1):#第0行到当前行i
-    
         t=[]
-        
         for k in range(n):
-        
             matrix1[j][k]+=line[k]#求和矩阵matrix1中，每个元素等于从当前元素开始到到该列最后一个元素的和sum(matrix[i:][j])
-            
             if k==0:
                 t.append(matrix1[j][k])
             else:
