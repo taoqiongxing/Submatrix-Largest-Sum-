@@ -1,4 +1,4 @@
-# Submatrix-Largest-Sum-
+# Submatrix Largest Sum
 最大子矩阵
 
 牛课网题目链接：https://www.nowcoder.com/questionTerminal/a5a0b05f0505406ca837a3a76a5419b3
